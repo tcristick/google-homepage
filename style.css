@@ -1,27 +1,59 @@
-body {
+body { /*sets font and margin settings throughout body of html file*/
     margin: 0;
     font-family: Arial, sans-serif;
     font-size: 0.9em;
 }
 
-a {
+a { /*sets text settings for top menu*/
     margin: 5px;
     text-decoration: none;
     color: black;
 }
 
-a:hover {
+a:hover { /*sets hover decoration of menu links to be underline*/
     text-decoration: underline;
 }
 
-nav {
+nav { /*sets display of items in nav tag to be flexible and justifies content on left and places space between two menu sections*/
     display: flex;
     justify-content: space-between;
 }
 
-.header-nav {
+.header-nav { /*sets display of header-nav class to be flexible, aligns items to center, and adds padding/margin to left and right of menu*/
     display: flex;
     align-items: center;
     padding-left: 20px;
-    margin-left: 10px;
+    margin-right: 10px;
+}
+
+ul > a, ul > img { /*sets padding of any a or img anchors within ul tags*/
+    padding: 0 8px;
+}
+
+.header-img { /*sets width of images in header to be 80% of normal size*/
+    width: 36px;
+    height: 36px;
+}
+
+.header-img:hover { /*sets settings for when user hovers over menu images*/
+    box-shadow: 0 0 10px 0 gainsboro;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+section { /*centers anything in section tag and sets top margin to be 10% of view height*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10vh;
+}
+
+.search-input > img {
+    width: 24px;
+    height: 24px;
+}
+
+.search-input {
+    display: flex;
+    justify-content: space-between;
 }
