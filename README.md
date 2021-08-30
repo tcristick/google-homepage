@@ -5,3 +5,5 @@ Skills demonstrated during project:
 2. Saving files, commiting changes, and pushing to Git.
 3. Utilizing header, nav, and unordered list tags to create menu on top of page.
 4. Learned flex boxes and how they can change the look of the page.
+5. Customized search bar and button display settings.
+6. COMMENTS ARE IMPORTANT. USE THEM THROUGHOUT PROJECT TO INDICATE WHAT YOU ARE DOING.
