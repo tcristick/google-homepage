@@ -1,13 +1,14 @@
 body { /*sets font and margin settings throughout body of html file*/
     margin: 0;
     font-family: Arial, sans-serif;
-    font-size: 0.9em;
+    font-size: 13px;
 }
 
-a { /*sets text settings for top menu*/
+.header-nav > a { /*sets text settings for top menu*/
     margin: 5px;
     text-decoration: none;
     color: black;
+    opacity: 75%;
 }
 
 a:hover { /*sets hover decoration of menu links to be underline*/
@@ -27,10 +28,10 @@ nav { /*sets display of items in nav tag to be flexible and justifies content on
 }
 
 ul > a, ul > img { /*sets padding of any a or img anchors within ul tags*/
-    padding: 0 8px;
+    padding: 0 0 0 10px;
 }
 
-.header-img { /*sets width of images in header to be 80% of normal size*/
+.header-img { /*sets width of images in header to be 36x36*/
     width: 36px;
     height: 36px;
 }
@@ -45,15 +46,51 @@ section { /*centers anything in section tag and sets top margin to be 10% of vie
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 10vh;
+    margin-top: 15vh;
 }
 
-.search-input > img {
-    width: 24px;
-    height: 24px;
-}
-
-.search-input {
+.search-input { /*sets display settings of search bar*/
     display: flex;
     justify-content: space-between;
+    width: 584px;
+    height: 48px;
+    border: 1px solid gainsboro;
+    border-radius: 20px;
+}
+
+.search-input > img { /*sets cursor when hovering over search bar images to pointer*/
+    cursor: pointer;
+}
+
+.search-input > img { /*sets size of images within search-input class to 24x24*/
+    width: 40px;
+    height: 40px;
+}
+
+.search-input:hover { /*creates shadow when hovering over search bar*/
+    box-shadow: 0 0 10px 0 gainsboro;
+}
+
+.search-input > input { /*expands any input objects within .saerch-input and also removes border*/
+    flex-grow: 1;
+    border: none;
+    outline: none;
+}
+
+.button-input { /*set top padding for button to be 25px*/
+    padding-top: 25px;
+}
+
+button { /*set button settings*/
+    background-color: #F2F2F2;
+    border-radius: 5px;
+    border: none;
+    height: 36px;
+    padding: 0 16px;
+    margin: 0 4px;
+}
+
+button:hover { /*settings for when cursor hovers over buttons*/
+    cursor: pointer;
+    box-shadow: 0 0 10px 0 gainsboro;
 }
