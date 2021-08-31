@@ -28,7 +28,7 @@ nav { /*sets display of items in nav tag to be flexible and justifies content on
 }
 
 ul > a, ul > img { /*sets padding of any a or img anchors within ul tags*/
-    padding: 0 0 0 10px;
+    padding: 0 8px;
 }
 
 .header-img { /*sets width of images in header to be 36x36*/
@@ -94,3 +94,69 @@ button:hover { /*settings for when cursor hovers over buttons*/
     cursor: pointer;
     box-shadow: 0 0 10px 0 gainsboro;
 }
+
+footer {
+    background-color: #F2F2F2;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+}
+
+#footer-left {
+    display: flex;
+    justify-self: start;
+    padding-left: 20px;
+    align-items: center;
+}
+
+#footer-center {
+    display: flex;
+    align-items: center;
+}
+
+#footer-right {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+    align-items: center;
+}
+
+#footer-left > a {
+    margin: 5px;
+    text-decoration: none;
+    color: black;
+    opacity: 75%;
+}
+
+#footer-center > a {
+    margin: 5px;
+    text-decoration: none;
+    color: black;
+    opacity: 75%;
+}
+
+#footer-center > img {
+    height: 12.25px;
+    width: 14px;
+    padding-right: 0.5px;
+}
+
+#footer-right > a {
+    margin: 5px;
+    text-decoration: none;
+    color: black;
+    opacity: 75%;
+}
+
+#footer-left > a:hover {
+    text-decoration: underline;
+}
+
+#footer-center > a:hover {
+    text-decoration: underline;
+}
+
+#footer-right > a:hover {
+    text-decoration: underline;
+}
+
