@@ -95,68 +95,68 @@ button:hover { /*settings for when cursor hovers over buttons*/
     box-shadow: 0 0 10px 0 gainsboro;
 }
 
-footer {
+footer { /*overall settings for footer*/
     background-color: #F2F2F2;
     position: fixed;
     bottom: 0;
     width: 100vw;
 }
 
-#footer-left {
+#footer-left { /*sets left links on footer to left side of screen and centers them in row. also makes section flexible.*/
     display: flex;
     justify-self: start;
     padding-left: 20px;
     align-items: center;
 }
 
-#footer-center {
+#footer-center { /*aligns  image and text in middle to center of row. also makes it flexible.*/
     display: flex;
     align-items: center;
 }
 
-#footer-right {
+#footer-right { /*sets right links on footer to right side of screen and centers them in row. also makes section flexible.*/
     display: flex;
     justify-content: flex-end;
     margin-right: 20px;
     align-items: center;
 }
 
-#footer-left > a {
+#footer-left > a { /*settings for all a anchors in left side of footer*/
     margin: 5px;
     text-decoration: none;
     color: black;
     opacity: 75%;
 }
 
-#footer-center > a {
+#footer-center > a { /*settings for all a anchors in center of footer*/
     margin: 5px;
     text-decoration: none;
     color: black;
     opacity: 75%;
 }
 
-#footer-center > img {
+#footer-center > img { /*settings for image in center of footer*/
     height: 12.25px;
     width: 14px;
     padding-right: 0.5px;
 }
 
-#footer-right > a {
+#footer-right > a { /*settings for all a anchors in right side of footer*/
     margin: 5px;
     text-decoration: none;
     color: black;
     opacity: 75%;
 }
 
-#footer-left > a:hover {
+#footer-left > a:hover { /*sets text decoration for footer-left link hovers*/
     text-decoration: underline;
 }
 
-#footer-center > a:hover {
+#footer-center > a:hover { /*sets text decoration for footer-center link hovers*/
     text-decoration: underline;
 }
 
-#footer-right > a:hover {
+#footer-right > a:hover { /*sets text decoration for footer-right link hovers*/
     text-decoration: underline;
 }
 
